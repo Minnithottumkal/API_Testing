@@ -24,6 +24,7 @@ public class Loginpage extends BaseData{
 		click("loginbtn_CSS");
 		log.debug("login successfully");
 		Thread.sleep(5000);
+		System.out.println("login successfully");
 		
 		
 	}
