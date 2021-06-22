@@ -1,18 +1,21 @@
-1622374532614	geckodriver	INFO	Listening on 127.0.0.1:26096
-1622374535809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1yDbpX"
+1624343959037	geckodriver	INFO	Listening on 127.0.0.1:25640
+1624343959647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileygLT2d"
 *** You are running in headless mode.
 
-(/usr/lib/firefox/firefox:5350): GLib-GObject-CRITICAL **: 17:06:05.410: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:13935): GLib-GObject-CRITICAL **: 12:09:24.616: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 
-(/usr/lib/firefox/firefox:5357): GLib-GObject-CRITICAL **: 17:06:06.682: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+(/usr/lib/firefox/firefox:13949): GLib-GObject-CRITICAL **: 12:09:24.832: g_object_set: assertion 'G_IS_OBJECT (object)' failed
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 
-(/usr/lib/firefox/firefox:5425): GLib-GObject-CRITICAL **: 17:06:10.984: g_object_set: assertion 'G_IS_OBJECT (object)' failed
-1622374574943	Marionette	INFO	Listening on port 46697
-1622374575287	Marionette	WARN	TLS certificate errors will be ignored for this session
+(/usr/lib/firefox/firefox:13995): GLib-GObject-CRITICAL **: 12:09:27.029: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1624343970500	Marionette	INFO	Listening on port 39011
+JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
+JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
+JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
 JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
 JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to load APIs. Unable to complete request. Error: Could not complete the request. Please try again later.
-JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
-JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
-JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
 JavaScript error: https://aspdev-apim.developer.azure-api.net/scripts/theme.js, line 2: Error: Unable to load operations: Error: Unable to complete request. Error: Could not complete the request. Please try again later.
+1624344087928	Marionette	INFO	Stopped listening on port 39011
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

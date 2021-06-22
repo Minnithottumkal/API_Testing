@@ -1,15 +1,14 @@
 package com.simplogics.base;
+
 import static org.testng.Assert.assertEquals;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.mail.EmailException;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -19,7 +18,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -37,16 +35,16 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.simplogics.utilities.ExcelReader;
+
 //import org.apache.log4j.Logger;
 public class BaseData extends Email {
-   
+
 	public static WebDriver driver;
-	public static ChromeOptions options;
 	public static Properties config = new Properties();
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public JavascriptExecutor js = (JavascriptExecutor) driver;
-	//public static Logger log = Logger.getLogger("devpinoyLogger");
+	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "/src/test/Files/excel/testdata.xlsx");
 	public static WebDriverWait wait;
@@ -57,11 +55,7 @@ public class BaseData extends Email {
 	public ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	
 
-		
-
-	
 	@BeforeMethod(alwaysRun = true)
 	public void setReport() throws EmailException {
 		// System.out.println("running before test.....");
@@ -82,7 +76,6 @@ public class BaseData extends Email {
 		extent.setSystemInfo("Orgainzation", "Simplogics");
 		// extent = new ExtentReports(filepath,true, DisplayOrder.OLDEST_FIRST,
 		// NetworkMode.ONLINE);
-
 
 	}
 
@@ -146,25 +139,24 @@ public class BaseData extends Email {
 			if (config.getProperty("browser").equals("firefox")) {
 				System.setProperty("webdriver.gecko.driver",
 						System.getProperty("user.dir") + "/src/test/Files/executables/geckodriver");
-				//FirefoxOptions options = new FirefoxOptions();
-				
-				//options.setLogLevel(FirefoxDriverLogLevel.TRACE);
-				// driver = new FirefoxDriver(options);
 				System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "FFLogs.txt");
-				//driver = new FirefoxDriver();
+				 //driver = new FirefoxDriver();
 				FirefoxOptions firefoxOptions = new FirefoxOptions();
-				firefoxOptions.setHeadless(true);
+				firefoxOptions.addArguments("--headless");
+				firefoxOptions.addArguments("--window-size=1920,1080");
 				driver = new FirefoxDriver(firefoxOptions);
 
 			} else if (config.getProperty("browser").equals("chrome")) {
 
 				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "/src/test/Files/executables/chromedriver");
-				options = new ChromeOptions();
-				options.setHeadless(true);
-				driver = new ChromeDriver(options);
-				//sdriver = new ChromeDriver();
-				 driver.manage().window().setSize(new Dimension(1600,700));
+				//ChromeOptions options = new ChromeOptions();
+               // options.addArguments("--headless");
+                //options.addArguments("--window-size=1920,1080");
+               //  driver = new ChromeDriver(options);
+
+				 driver = new ChromeDriver();
+				driver.manage().window().setSize(new Dimension(1600, 700));
 				System.out.println("Chrome Launched !!!");
 			} else if (config.getProperty("browser").equals("ie")) {
 				System.setProperty("webdriver.ie.driver",
@@ -223,7 +215,6 @@ public class BaseData extends Email {
 
 		}
 	}
-
 
 	public static void verifypageurl(String expectedurl) {
 		String currenturl = driver.getCurrentUrl();
@@ -288,10 +279,11 @@ public class BaseData extends Email {
 	@AfterTest
 	public static void Emailsend() throws EmailException {
 		driver.close();
-	email();
-	File f= new
-	File("/home/appus/Desktop/SMTP/Api_Testing/target/surefire-reports/html/API_Test_Result.html");
-		f.delete();
+		log.debug("test execution completed !!!");
+		 email();
+		 File f= new
+		 File("/home/appus/Desktop/SMTP/Api_Testing/target/surefire-reports/html/API_Test_Result.html");
+		 f.delete();
 	}
 
 }
