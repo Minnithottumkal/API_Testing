@@ -2,26 +2,26 @@
 <testng-results ignored="3" total="52" passed="4" failed="0" skipped="45">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-22T06:39:18Z" name="Default suite" finished-at="2021-06-22T06:41:29Z" duration-ms="131480">
+  <suite started-at="2021-06-22T10:53:34Z" name="Default suite" finished-at="2021-06-22T10:55:59Z" duration-ms="145100">
     <groups>
     </groups>
-    <test started-at="2021-06-22T06:39:18Z" name="Default test" finished-at="2021-06-22T06:41:29Z" duration-ms="131480">
+    <test started-at="2021-06-22T10:53:34Z" name="Default test" finished-at="2021-06-22T10:55:59Z" duration-ms="145100">
       <class name="com.simplogics.utilities.TestUtil">
-        <test-method is-config="true" signature="Emailsend()[pri:0, instance:com.simplogics.utilities.TestUtil@4763c727]" started-at="2021-06-22T12:11:27Z" name="Emailsend" finished-at="2021-06-22T12:11:29Z" duration-ms="1637" status="PASS">
+        <test-method is-config="true" signature="Emailsend()[pri:0, instance:com.simplogics.utilities.TestUtil@4763c727]" started-at="2021-06-22T16:25:44Z" name="Emailsend" finished-at="2021-06-22T16:25:59Z" duration-ms="14200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Emailsend -->
       </class> <!-- com.simplogics.utilities.TestUtil -->
       <class name="com.simplogics.testcases.Loginpage">
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T12:09:18Z" name="setReport" finished-at="2021-06-22T12:09:18Z" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T16:23:34Z" name="setReport" finished-at="2021-06-22T16:23:35Z" duration-ms="1704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T12:09:18Z" name="setUp" finished-at="2021-06-22T12:09:36Z" duration-ms="17977" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T16:23:35Z" name="setUp" finished-at="2021-06-22T16:23:48Z" duration-ms="12532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T12:09:36Z" name="loginpage" data-provider="dp" finished-at="2021-06-22T12:09:46Z" duration-ms="10456" status="PASS">
+        <test-method signature="loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T16:23:48Z" name="loginpage" data-provider="dp" finished-at="2021-06-22T16:23:58Z" duration-ms="10475" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T12:09:46Z" name="tearDown" finished-at="2021-06-22T12:09:48Z" duration-ms="1265" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Loginpage@1433046b]" started-at="2021-06-22T16:23:58Z" name="tearDown" finished-at="2021-06-22T16:24:01Z" duration-ms="2174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,15 +55,11 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.simplogics.testcases.Loginpage -->
       <class name="com.simplogics.testcases.APIS">
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:09:48Z" name="setReport" finished-at="2021-06-22T12:09:48Z" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:01Z" name="setReport" finished-at="2021-06-22T16:24:01Z" duration-ms="861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:09:48Z" name="setUp" finished-at="2021-06-22T12:09:48Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:09:48Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:10:20Z" duration-ms="32052" status="PASS">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:01Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:24:34Z" duration-ms="32669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:20Z" name="tearDown" finished-at="2021-06-22T12:10:20Z" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:01Z" name="setUp" finished-at="2021-06-22T16:24:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:34Z" name="tearDown" finished-at="2021-06-22T16:24:34Z" duration-ms="186" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:20Z" name="setReport" finished-at="2021-06-22T12:10:20Z" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:34Z" name="setReport" finished-at="2021-06-22T16:24:34Z" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:20Z" name="setUp" finished-at="2021-06-22T12:10:20Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:34Z" name="setUp" finished-at="2021-06-22T16:24:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:20Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:10:51Z" duration-ms="31034" status="PASS">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:24:34Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:07Z" duration-ms="32575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:51Z" name="tearDown" finished-at="2021-06-22T12:10:52Z" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:07Z" name="tearDown" finished-at="2021-06-22T16:25:07Z" duration-ms="141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,15 +125,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:52Z" name="setReport" finished-at="2021-06-22T12:10:52Z" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:07Z" name="setReport" finished-at="2021-06-22T16:25:07Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:52Z" name="setUp" finished-at="2021-06-22T12:10:52Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:07Z" name="setUp" finished-at="2021-06-22T16:25:07Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:10:52Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:24Z" duration-ms="31971" status="PASS">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:07Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:42Z" duration-ms="34722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:24Z" name="tearDown" finished-at="2021-06-22T12:11:24Z" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="tearDown" finished-at="2021-06-22T16:25:42Z" duration-ms="288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,15 +160,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:24Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setReport" finished-at="2021-06-22T16:25:42Z" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setUp" finished-at="2021-06-22T16:25:42Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="6" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:42Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="tearDown" finished-at="2021-06-22T16:25:42Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,15 +230,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setReport" finished-at="2021-06-22T16:25:42Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setUp" finished-at="2021-06-22T16:25:42Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="10" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:42Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -289,7 +289,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="tearDown" finished-at="2021-06-22T16:25:42Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -300,11 +300,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setReport" finished-at="2021-06-22T16:25:42Z" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="4" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setUp" finished-at="2021-06-22T16:25:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:42Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -355,11 +359,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="tearDown" finished-at="2021-06-22T16:25:42Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -370,15 +370,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:42Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="8" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -429,7 +429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -440,11 +440,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="5" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="6" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -495,11 +499,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -510,15 +510,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="7" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="4" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -569,7 +569,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -580,15 +580,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="6" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="6" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -639,7 +639,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -650,15 +650,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="3" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -709,7 +709,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -720,15 +720,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="34" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -779,7 +775,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -790,11 +790,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="3" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -845,11 +845,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -860,15 +860,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="3" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -919,7 +919,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -930,15 +930,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:25Z" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setUp" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:25Z" duration-ms="8" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -989,7 +989,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="tearDown" finished-at="2021-06-22T12:11:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1000,11 +1000,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:25Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="6" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1055,11 +1059,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1070,15 +1070,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="7" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="11" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1128,7 +1128,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1139,15 +1139,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="11" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1197,7 +1193,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1208,11 +1208,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="9" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1262,11 +1266,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1277,11 +1277,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="2" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1331,11 +1335,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:43Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1346,11 +1350,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setUp" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="2" status="SKIP">
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:43Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1400,11 +1404,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="tearDown" finished-at="2021-06-22T16:25:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1415,15 +1415,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:43Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="12" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1473,7 +1469,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1484,15 +1484,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="4" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1542,7 +1542,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1553,11 +1553,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="9" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1607,11 +1607,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1622,11 +1622,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1676,15 +1680,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1695,11 +1691,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1749,7 +1749,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1760,15 +1760,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="8" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1818,7 +1818,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1829,15 +1829,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:26Z" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setUp" finished-at="2021-06-22T12:11:26Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:26Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1887,7 +1887,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="tearDown" finished-at="2021-06-22T12:11:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1898,15 +1898,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:26Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="3" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1956,7 +1952,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1967,15 +1967,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="3" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2025,7 +2021,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2036,15 +2036,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2094,7 +2094,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2105,11 +2105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="7" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2159,11 +2159,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2174,11 +2174,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2228,11 +2232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2243,15 +2243,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2301,7 +2301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2312,11 +2312,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="3" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2366,11 +2370,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2381,15 +2381,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="5" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2439,7 +2439,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2450,11 +2450,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2504,11 +2508,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2519,11 +2523,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        </test-method> <!-- setUp -->
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2573,11 +2577,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2588,11 +2588,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2642,11 +2642,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2657,15 +2657,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2715,7 +2715,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2726,15 +2726,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2784,7 +2784,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2795,15 +2795,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2853,7 +2849,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2864,15 +2864,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="8" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2922,7 +2922,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2933,15 +2933,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2991,7 +2987,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3002,15 +3002,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="45" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -3060,7 +3060,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3071,15 +3071,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="2" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -3129,7 +3129,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3140,15 +3144,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -3198,7 +3198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3209,15 +3209,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setReport" finished-at="2021-06-22T12:11:27Z" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setReport" finished-at="2021-06-22T16:25:44Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="setUp" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="setUp" finished-at="2021-06-22T16:25:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="Apis" data-provider="dp" finished-at="2021-06-22T12:11:27Z" duration-ms="1" status="SKIP">
+        <test-method signature="Apis(java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="Apis" data-provider="dp" finished-at="2021-06-22T16:25:44Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -3267,7 +3267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Apis -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T12:11:27Z" name="tearDown" finished-at="2021-06-22T12:11:27Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.APIS@3f446bef]" started-at="2021-06-22T16:25:44Z" name="tearDown" finished-at="2021-06-22T16:25:44Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -280,10 +280,10 @@ public class BaseData extends Email {
 	public static void Emailsend() throws EmailException {
 		driver.close();
 		log.debug("test execution completed !!!");
-		// email();
-		// File f= new
-		// File("/home/appus/Desktop/SMTP/Api_Testing/target/surefire-reports/html/API_Test_Result.html");
-		// f.delete();
+		 email();
+		 File f= new
+		 File("/home/appus/Desktop/SMTP/Api_Testing/target/surefire-reports/html/API_Test_Result.html");
+		 f.delete();
 	}
 
 }
