@@ -1,57 +1,61 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.simplogics</groupId>
-  <artifactId>Api_Testing</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-   <dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.simplogics</groupId>
+	<artifactId>Api_Testing</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
 
 
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.11</version>
 		</dependency>
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
-    <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
-    <dependency>
-        <groupId>org.freemarker</groupId>
-        <artifactId>freemarker</artifactId>
-        <version>2.3.23</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-    <dependency>
-        <groupId>org.jsoup</groupId>
-        <artifactId>jsoup</artifactId>
-        <version>1.8.3</version>
-    </dependency>
-
-
-
-
-
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>3.1.5</version>
-
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.23</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.8.3</version>
+		</dependency>
 
 
 
 
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java 2.53.1, 2.49.1 supports log4j-->
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+
+		</dependency>
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java 
+			2.53.1, 2.49.1 supports log4j -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<version>3.4.0</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -59,20 +63,20 @@
 			<version>3.2.0</version>
 		</dependency>
 		<dependency>
-	<groupId>org.apache.commons</groupId>
-  <artifactId>commons-email</artifactId>
-  <version>1.5</version>
-</dependency>
-  
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.5</version>
+		</dependency>
+
 
 		<dependency>
-		    <groupId>javax.activation</groupId>
-		    <artifactId>activation</artifactId>
-		    <version>1.1.1</version>
+			<groupId>javax.activation</groupId>
+			<artifactId>activation</artifactId>
+			<version>1.1.1</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-		
+
 
 		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
 		<dependency>
@@ -147,13 +151,20 @@
 			<version>3.6</version>
 		</dependency>
 		<dependency>
-		  <groupId>com.sun.mail</groupId>
-		    <artifactId>javax.mail</artifactId>
-		    <version>1.6.2</version>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
 		</dependency>
-		
-		
-	  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.43.0</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 
 
 
@@ -200,5 +211,5 @@
 
 
 	</build>
-		
+
 </project>

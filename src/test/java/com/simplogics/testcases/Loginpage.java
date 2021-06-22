@@ -22,7 +22,7 @@ public class Loginpage extends BaseData{
 		type("email_CSS",(email));
 		type("password_CSS",(password));
 		click("loginbtn_CSS");
-
+		log.debug("login successfully");
 		Thread.sleep(5000);
 		
 		
